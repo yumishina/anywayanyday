@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__52-[CitySearchViewController searchBar:textDidChange:]_block_invoke:CitySearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[Airline(Actions) parseAirlinesWithData:]:Airline+Actions.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[City(Actions) parseCitiesWithData:]:City+Actions.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cityDictionary[@&quot;Airport&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

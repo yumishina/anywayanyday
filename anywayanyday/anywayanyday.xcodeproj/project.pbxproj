@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20E7E571B6514AF00CC2F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E561B6514AF00CC2F38 /* main.m */; };
+		B20E7E5A1B6514AF00CC2F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E591B6514AF00CC2F38 /* AppDelegate.m */; };
+		B20E7E601B6514AF00CC2F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20E7E5E1B6514AF00CC2F38 /* Main.storyboard */; };
+		B20E7E621B6514AF00CC2F38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20E7E611B6514AF00CC2F38 /* Images.xcassets */; };
+		B20E7E651B6514AF00CC2F38 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B20E7E631B6514AF00CC2F38 /* LaunchScreen.xib */; };
+		B20E7E711B6514AF00CC2F38 /* anywayanydayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E701B6514AF00CC2F38 /* anywayanydayTests.m */; };
+		B20E7E801B65178800CC2F38 /* TicketSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E7F1B65178800CC2F38 /* TicketSearchViewController.m */; };
+		B20E7E831B6524BC00CC2F38 /* CitySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E821B6524BC00CC2F38 /* CitySearchViewController.m */; };
+		B20E7E881B65365200CC2F38 /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E871B65365200CC2F38 /* CityCell.m */; };
+		B20E7E8C1B65639900CC2F38 /* CitiesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E8B1B65639900CC2F38 /* CitiesManager.m */; };
+		B20E7E901B6563CF00CC2F38 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E8F1B6563CF00CC2F38 /* City.m */; };
+		B20E7E941B65697D00CC2F38 /* City+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E931B65697D00CC2F38 /* City+Actions.m */; };
+		B20E7E9F1B6743E900CC2F38 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7E9E1B6743E900CC2F38 /* DateViewController.m */; };
+		B20E7EA21B674B1500CC2F38 /* TicketSearchOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EA11B674B1500CC2F38 /* TicketSearchOrder.m */; };
+		B20E7EA81B6884CB00CC2F38 /* TicketResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EA71B6884CB00CC2F38 /* TicketResultsViewController.m */; };
+		B20E7EAB1B695F3C00CC2F38 /* TicketSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EAA1B695F3C00CC2F38 /* TicketSearchManager.m */; };
+		B20E7EAE1B696CAD00CC2F38 /* Airline.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EAD1B696CAD00CC2F38 /* Airline.m */; };
+		B20E7EB11B696CC500CC2F38 /* Fare.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EB01B696CC500CC2F38 /* Fare.m */; };
+		B20E7EB41B69E29700CC2F38 /* Airline+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EB31B69E29700CC2F38 /* Airline+Actions.m */; };
+		B20E7EB71B69E2BC00CC2F38 /* Fare+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EB61B69E2BC00CC2F38 /* Fare+Actions.m */; };
+		B20E7EBA1B69EC6600CC2F38 /* AirlineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EB91B69EC6600CC2F38 /* AirlineCell.m */; };
+		B20E7EBD1B69F42D00CC2F38 /* FareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20E7EBC1B69F42D00CC2F38 /* FareListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20E7E6B1B6514AF00CC2F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20E7E491B6514AF00CC2F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20E7E501B6514AF00CC2F38;
+			remoteInfo = anywayanyday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20E7E511B6514AF00CC2F38 /* anywayanyday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anywayanyday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20E7E551B6514AF00CC2F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20E7E561B6514AF00CC2F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B20E7E581B6514AF00CC2F38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B20E7E591B6514AF00CC2F38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B20E7E5F1B6514AF00CC2F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20E7E611B6514AF00CC2F38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B20E7E641B6514AF00CC2F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B20E7E6A1B6514AF00CC2F38 /* anywayanydayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anywayanydayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20E7E6F1B6514AF00CC2F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20E7E701B6514AF00CC2F38 /* anywayanydayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = anywayanydayTests.m; sourceTree = "<group>"; };
+		B20E7E7E1B65178800CC2F38 /* TicketSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketSearchViewController.h; path = ViewControllers/TicketSearchViewController.h; sourceTree = "<group>"; };
+		B20E7E7F1B65178800CC2F38 /* TicketSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketSearchViewController.m; path = ViewControllers/TicketSearchViewController.m; sourceTree = "<group>"; };
+		B20E7E811B6524BC00CC2F38 /* CitySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitySearchViewController.h; path = ViewControllers/CitySearchViewController.h; sourceTree = "<group>"; };
+		B20E7E821B6524BC00CC2F38 /* CitySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitySearchViewController.m; path = ViewControllers/CitySearchViewController.m; sourceTree = "<group>"; };
+		B20E7E861B65365200CC2F38 /* CityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CityCell.h; path = Views/CityCell.h; sourceTree = "<group>"; };
+		B20E7E871B65365200CC2F38 /* CityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CityCell.m; path = Views/CityCell.m; sourceTree = "<group>"; };
+		B20E7E8A1B65639900CC2F38 /* CitiesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CitiesManager.h; path = Managers/CitiesManager.h; sourceTree = "<group>"; };
+		B20E7E8B1B65639900CC2F38 /* CitiesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CitiesManager.m; path = Managers/CitiesManager.m; sourceTree = "<group>"; };
+		B20E7E8E1B6563CF00CC2F38 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = City.h; path = Model/City.h; sourceTree = "<group>"; };
+		B20E7E8F1B6563CF00CC2F38 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = City.m; path = Model/City.m; sourceTree = "<group>"; };
+		B20E7E921B65697D00CC2F38 /* City+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "City+Actions.h"; path = "Model/City+Actions.h"; sourceTree = "<group>"; };
+		B20E7E931B65697D00CC2F38 /* City+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "City+Actions.m"; path = "Model/City+Actions.m"; sourceTree = "<group>"; };
+		B20E7E9D1B6743E900CC2F38 /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateViewController.h; path = ViewControllers/DateViewController.h; sourceTree = "<group>"; };
+		B20E7E9E1B6743E900CC2F38 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateViewController.m; path = ViewControllers/DateViewController.m; sourceTree = "<group>"; };
+		B20E7EA01B674B1500CC2F38 /* TicketSearchOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketSearchOrder.h; path = Model/TicketSearchOrder.h; sourceTree = "<group>"; };
+		B20E7EA11B674B1500CC2F38 /* TicketSearchOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketSearchOrder.m; path = Model/TicketSearchOrder.m; sourceTree = "<group>"; };
+		B20E7EA61B6884CB00CC2F38 /* TicketResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketResultsViewController.h; path = ViewControllers/TicketResultsViewController.h; sourceTree = "<group>"; };
+		B20E7EA71B6884CB00CC2F38 /* TicketResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketResultsViewController.m; path = ViewControllers/TicketResultsViewController.m; sourceTree = "<group>"; };
+		B20E7EA91B695F3C00CC2F38 /* TicketSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketSearchManager.h; path = Managers/TicketSearchManager.h; sourceTree = "<group>"; };
+		B20E7EAA1B695F3C00CC2F38 /* TicketSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketSearchManager.m; path = Managers/TicketSearchManager.m; sourceTree = "<group>"; };
+		B20E7EAC1B696CAD00CC2F38 /* Airline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Airline.h; path = Model/Airline.h; sourceTree = "<group>"; };
+		B20E7EAD1B696CAD00CC2F38 /* Airline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Airline.m; path = Model/Airline.m; sourceTree = "<group>"; };
+		B20E7EAF1B696CC500CC2F38 /* Fare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fare.h; path = Model/Fare.h; sourceTree = "<group>"; };
+		B20E7EB01B696CC500CC2F38 /* Fare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fare.m; path = Model/Fare.m; sourceTree = "<group>"; };
+		B20E7EB21B69E29700CC2F38 /* Airline+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Airline+Actions.h"; path = "Model/Airline+Actions.h"; sourceTree = "<group>"; };
+		B20E7EB31B69E29700CC2F38 /* Airline+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Airline+Actions.m"; path = "Model/Airline+Actions.m"; sourceTree = "<group>"; };
+		B20E7EB51B69E2BC00CC2F38 /* Fare+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Fare+Actions.h"; path = "Model/Fare+Actions.h"; sourceTree = "<group>"; };
+		B20E7EB61B69E2BC00CC2F38 /* Fare+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Fare+Actions.m"; path = "Model/Fare+Actions.m"; sourceTree = "<group>"; };
+		B20E7EB81B69EC6600CC2F38 /* AirlineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirlineCell.h; path = Views/AirlineCell.h; sourceTree = "<group>"; };
+		B20E7EB91B69EC6600CC2F38 /* AirlineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirlineCell.m; path = Views/AirlineCell.m; sourceTree = "<group>"; };
+		B20E7EBB1B69F42D00CC2F38 /* FareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FareListViewController.h; path = ViewControllers/FareListViewController.h; sourceTree = "<group>"; };
+		B20E7EBC1B69F42D00CC2F38 /* FareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FareListViewController.m; path = ViewControllers/FareListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20E7E4E1B6514AF00CC2F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20E7E671B6514AF00CC2F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20E7E481B6514AF00CC2F38 = {
+			isa = PBXGroup;
+			children = (
+				B20E7E531B6514AF00CC2F38 /* anywayanyday */,
+				B20E7E6D1B6514AF00CC2F38 /* anywayanydayTests */,
+				B20E7E521B6514AF00CC2F38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20E7E521B6514AF00CC2F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E511B6514AF00CC2F38 /* anywayanyday.app */,
+				B20E7E6A1B6514AF00CC2F38 /* anywayanydayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20E7E531B6514AF00CC2F38 /* anywayanyday */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E8D1B6563B000CC2F38 /* Model */,
+				B20E7E891B65635A00CC2F38 /* Managers */,
+				B20E7E851B6535F600CC2F38 /* Views */,
+				B20E7E7A1B65167400CC2F38 /* ViewControllers */,
+				B20E7E581B6514AF00CC2F38 /* AppDelegate.h */,
+				B20E7E591B6514AF00CC2F38 /* AppDelegate.m */,
+				B20E7E5E1B6514AF00CC2F38 /* Main.storyboard */,
+				B20E7E611B6514AF00CC2F38 /* Images.xcassets */,
+				B20E7E631B6514AF00CC2F38 /* LaunchScreen.xib */,
+				B20E7E541B6514AF00CC2F38 /* Supporting Files */,
+			);
+			path = anywayanyday;
+			sourceTree = "<group>";
+		};
+		B20E7E541B6514AF00CC2F38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E551B6514AF00CC2F38 /* Info.plist */,
+				B20E7E561B6514AF00CC2F38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20E7E6D1B6514AF00CC2F38 /* anywayanydayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E701B6514AF00CC2F38 /* anywayanydayTests.m */,
+				B20E7E6E1B6514AF00CC2F38 /* Supporting Files */,
+			);
+			path = anywayanydayTests;
+			sourceTree = "<group>";
+		};
+		B20E7E6E1B6514AF00CC2F38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E6F1B6514AF00CC2F38 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20E7E7A1B65167400CC2F38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E7E1B65178800CC2F38 /* TicketSearchViewController.h */,
+				B20E7E7F1B65178800CC2F38 /* TicketSearchViewController.m */,
+				B20E7E811B6524BC00CC2F38 /* CitySearchViewController.h */,
+				B20E7E821B6524BC00CC2F38 /* CitySearchViewController.m */,
+				B20E7E9D1B6743E900CC2F38 /* DateViewController.h */,
+				B20E7E9E1B6743E900CC2F38 /* DateViewController.m */,
+				B20E7EA61B6884CB00CC2F38 /* TicketResultsViewController.h */,
+				B20E7EA71B6884CB00CC2F38 /* TicketResultsViewController.m */,
+				B20E7EBB1B69F42D00CC2F38 /* FareListViewController.h */,
+				B20E7EBC1B69F42D00CC2F38 /* FareListViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B20E7E851B6535F600CC2F38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E861B65365200CC2F38 /* CityCell.h */,
+				B20E7E871B65365200CC2F38 /* CityCell.m */,
+				B20E7EB81B69EC6600CC2F38 /* AirlineCell.h */,
+				B20E7EB91B69EC6600CC2F38 /* AirlineCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B20E7E891B65635A00CC2F38 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E8A1B65639900CC2F38 /* CitiesManager.h */,
+				B20E7E8B1B65639900CC2F38 /* CitiesManager.m */,
+				B20E7EA91B695F3C00CC2F38 /* TicketSearchManager.h */,
+				B20E7EAA1B695F3C00CC2F38 /* TicketSearchManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		B20E7E8D1B6563B000CC2F38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B20E7E8E1B6563CF00CC2F38 /* City.h */,
+				B20E7E8F1B6563CF00CC2F38 /* City.m */,
+				B20E7E921B65697D00CC2F38 /* City+Actions.h */,
+				B20E7E931B65697D00CC2F38 /* City+Actions.m */,
+				B20E7EA01B674B1500CC2F38 /* TicketSearchOrder.h */,
+				B20E7EA11B674B1500CC2F38 /* TicketSearchOrder.m */,
+				B20E7EAC1B696CAD00CC2F38 /* Airline.h */,
+				B20E7EAD1B696CAD00CC2F38 /* Airline.m */,
+				B20E7EB21B69E29700CC2F38 /* Airline+Actions.h */,
+				B20E7EB31B69E29700CC2F38 /* Airline+Actions.m */,
+				B20E7EAF1B696CC500CC2F38 /* Fare.h */,
+				B20E7EB01B696CC500CC2F38 /* Fare.m */,
+				B20E7EB51B69E2BC00CC2F38 /* Fare+Actions.h */,
+				B20E7EB61B69E2BC00CC2F38 /* Fare+Actions.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20E7E501B6514AF00CC2F38 /* anywayanyday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20E7E741B6514B000CC2F38 /* Build configuration list for PBXNativeTarget "anywayanyday" */;
+			buildPhases = (
+				B20E7E4D1B6514AF00CC2F38 /* Sources */,
+				B20E7E4E1B6514AF00CC2F38 /* Frameworks */,
+				B20E7E4F1B6514AF00CC2F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anywayanyday;
+			productName = anywayanyday;
+			productReference = B20E7E511B6514AF00CC2F38 /* anywayanyday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20E7E691B6514AF00CC2F38 /* anywayanydayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20E7E771B6514B000CC2F38 /* Build configuration list for PBXNativeTarget "anywayanydayTests" */;
+			buildPhases = (
+				B20E7E661B6514AF00CC2F38 /* Sources */,
+				B20E7E671B6514AF00CC2F38 /* Frameworks */,
+				B20E7E681B6514AF00CC2F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20E7E6C1B6514AF00CC2F38 /* PBXTargetDependency */,
+			);
+			name = anywayanydayTests;
+			productName = anywayanydayTests;
+			productReference = B20E7E6A1B6514AF00CC2F38 /* anywayanydayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20E7E491B6514AF00CC2F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yulia;
+				TargetAttributes = {
+					B20E7E501B6514AF00CC2F38 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B20E7E691B6514AF00CC2F38 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B20E7E501B6514AF00CC2F38;
+					};
+				};
+			};
+			buildConfigurationList = B20E7E4C1B6514AF00CC2F38 /* Build configuration list for PBXProject "anywayanyday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20E7E481B6514AF00CC2F38;
+			productRefGroup = B20E7E521B6514AF00CC2F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20E7E501B6514AF00CC2F38 /* anywayanyday */,
+				B20E7E691B6514AF00CC2F38 /* anywayanydayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20E7E4F1B6514AF00CC2F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20E7E601B6514AF00CC2F38 /* Main.storyboard in Resources */,
+				B20E7E651B6514AF00CC2F38 /* LaunchScreen.xib in Resources */,
+				B20E7E621B6514AF00CC2F38 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20E7E681B6514AF00CC2F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20E7E4D1B6514AF00CC2F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20E7EBD1B69F42D00CC2F38 /* FareListViewController.m in Sources */,
+				B20E7E8C1B65639900CC2F38 /* CitiesManager.m in Sources */,
+				B20E7E801B65178800CC2F38 /* TicketSearchViewController.m in Sources */,
+				B20E7E9F1B6743E900CC2F38 /* DateViewController.m in Sources */,
+				B20E7EB71B69E2BC00CC2F38 /* Fare+Actions.m in Sources */,
+				B20E7EB11B696CC500CC2F38 /* Fare.m in Sources */,
+				B20E7E881B65365200CC2F38 /* CityCell.m in Sources */,
+				B20E7E5A1B6514AF00CC2F38 /* AppDelegate.m in Sources */,
+				B20E7E571B6514AF00CC2F38 /* main.m in Sources */,
+				B20E7EA21B674B1500CC2F38 /* TicketSearchOrder.m in Sources */,
+				B20E7E901B6563CF00CC2F38 /* City.m in Sources */,
+				B20E7E941B65697D00CC2F38 /* City+Actions.m in Sources */,
+				B20E7EAB1B695F3C00CC2F38 /* TicketSearchManager.m in Sources */,
+				B20E7EA81B6884CB00CC2F38 /* TicketResultsViewController.m in Sources */,
+				B20E7EB41B69E29700CC2F38 /* Airline+Actions.m in Sources */,
+				B20E7EAE1B696CAD00CC2F38 /* Airline.m in Sources */,
+				B20E7EBA1B69EC6600CC2F38 /* AirlineCell.m in Sources */,
+				B20E7E831B6524BC00CC2F38 /* CitySearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20E7E661B6514AF00CC2F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20E7E711B6514AF00CC2F38 /* anywayanydayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20E7E6C1B6514AF00CC2F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20E7E501B6514AF00CC2F38 /* anywayanyday */;
+			targetProxy = B20E7E6B1B6514AF00CC2F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20E7E5E1B6514AF00CC2F38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20E7E5F1B6514AF00CC2F38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20E7E631B6514AF00CC2F38 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20E7E641B6514AF00CC2F38 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20E7E721B6514B000CC2F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B20E7E731B6514B000CC2F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20E7E751B6514B000CC2F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anywayanyday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B20E7E761B6514B000CC2F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = anywayanyday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B20E7E781B6514B000CC2F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = anywayanydayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anywayanyday.app/anywayanyday";
+			};
+			name = Debug;
+		};
+		B20E7E791B6514B000CC2F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = anywayanydayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anywayanyday.app/anywayanyday";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20E7E4C1B6514AF00CC2F38 /* Build configuration list for PBXProject "anywayanyday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20E7E721B6514B000CC2F38 /* Debug */,
+				B20E7E731B6514B000CC2F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20E7E741B6514B000CC2F38 /* Build configuration list for PBXNativeTarget "anywayanyday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20E7E751B6514B000CC2F38 /* Debug */,
+				B20E7E761B6514B000CC2F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B20E7E771B6514B000CC2F38 /* Build configuration list for PBXNativeTarget "anywayanydayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20E7E781B6514B000CC2F38 /* Debug */,
+				B20E7E791B6514B000CC2F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20E7E491B6514AF00CC2F38 /* Project object */;
+}
